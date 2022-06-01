@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<!--Begining of head section--> 
+<head>
+	 <title>Music Player</title>
+	 <!--Linking the CSS stylesheet using extrenal CSS-->
+	 <link rel="stylesheet" type="text/css" href="MusicPlayerStyle.css">
+	 <!--Font Awesome script for using icons from font awesome-->
+	 <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+	 <!--Adds responsiveness to the website-->
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+</head>
+<!--End of head section-->
+<body>
+	<!--Begining of navigation bar section-->
+	<nav>
+		<!--Music Player Logo div-->
+		<div id="music-player-tag">
+		 <div id="music-player-logo">
+			 <img src="Images/applogo.png">
+		 </div>
+		 <!--Music Player Logo div end-->
+
+		 <!--Music Player Title-->
+		 <div id="music-player-name">
+             Music<br/><b>Player</b>
+		 </div>
+		</div>
+		 <!--Music Player Title div end-->
+
+         <!--Search Bar div-->
+         <div id="search-bar-utility">
+		 <div id="search-bar">
+			 <form>
+				 <input type="text" placeholder="Search...">
+				 <!--Search Icon-->
+				 <i class="fas fa-search"></i>
+			 </form>
+		 </div>
+		 <!--Search Bar div end-->
+
+         <!--Notification Bell div-->
+		 <div id="notifications">
+			 <i class="fas fa-bell"></i>
+		 </div>
+		 <!--Notification Bell div end-->
+
+         <!--User Image div-->
+		 <div id="user">
+			 <img src="Images/user-image.jfif">
+		 </div>
+		</div>
+		 <!--User Image div end-->
+	</nav>
+    <!--End of navigation bar section-->
+
+
+    <!--Main Section-->
+    <main>
+    	<!--Artist Template-->
+    	<div id="artist-template">
+    		<div id="artist-image">
+    		</div><!--Artist Details
+      >--><div id="artist-details">
+      	     <!--Artist Title-->
+      	     <div id="artist-title">
+      	     	<div>
+      	     	   <b>Deepika Padukone</b>
+      	     	   <br/>
+      	     	   <artist-type>Bollybood Artist</artist-type>
+      	         </div>
+      	     	<followers>96.7k followers</followers>
+      	      </div>
+              <!--End of Artist Title-->
+              <!--Artist Intro-->
+      	     <div id="artist-intro">
+                  Deepika Padukone (born 5 January 1986) is a Danish–born Indian movie actress and model. One of the highest-paid Indian celebrities, she has established a career in Bollywood films, and is the recipient of two Filmfare Awards.[1] She is married to ranveer singh (2018 till date). She belongs to OBC caste.
+      	     </div>
+      	     <!--End of Artist Intro-->
+      	     <!--Miscellaneous Buttons-->
+      	      <div id="artist-buttons">
+      	 	<div id="playall-button">
+      	 		Play All
+      	 	</div>
+      	 	<div id="follow-button">
+      	 		Follow
+      	 	</div>
+      	 </div>
+      	 <div id="tracks">
+      	 	247 Tracks | 128 Albums
+      	 </div>
+      	 <!--End of miscellaeous buttons-->
+      	 </div>
+         <!--End of artist details-->
+    	</div>
+    	<!--End of artist template-->
+
+    	<!--Begining of artist songs-->
+    	<div id="artist-songs">
+    		<!--Song 1-->
+    		<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="Images/recent-image-1.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Gehraiya
+    			    	<br/>
+    			    	<author>Deepika Padukon</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="Images/d-1.jfif" alt="album image">
+    			    <div id="song-details">
+    			    	Lovely
+    			    	<br/>
+    			    	<author>Deepika Padukon</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="Images/d-2.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Ghoomer
+    			    	<br/>
+    			    	<author>Deepika Padukon</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="Images/d-3.jfif" alt="album image">
+    			    <div id="song-details">
+    			    	Diwani Mastani
+    			    	<br/>
+    			    	<author>Deepika Padukon</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="Images/d-4.jfif" alt="album image">
+    			    <div id="song-details">
+    			    	Party on my Mind
+    			    	<br/>
+    			    	<author>Deepika Padukon</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 5-->
+    		<!--Song 6-->
+    		<div id="song">
+    			<div id="song-number">
+    			    06
+    			    <img src="Images/d-5.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Tamasha
+    			    	<br/>
+    			    	<author>Deepika Padukon</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 6-->
+    		<!--Song 7-->
+    		<div id="song">
+    			<div id="song-number">
+    			    07
+    			    <img src="Images/d-6.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Be Inthehaan
+    			    	<br/>
+    			    	<author>Deepika Padukon</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    	</div>
+    	<!--End of Song 7-->
+    </main>
+    <!--End of main section-->
+    
+    <!--Begining of Aside Section-->
+    <aside>
+    	<div id="aside-header-1">
+    		Similar Artists
+    		<x>View All</x>
+    	</div>
+        <!--Similar artist-->
+    	<div id="similar-artist">
+    		<div id="artist-img1"></div>
+    		<div id="song-details">
+    			Jubin Nautiya
+    			<br/>
+    	    <author>Bollybood Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img2"></div>
+    		<div id="song-details">
+    			Niti Mohan
+    			<br/>
+    	    <author>Pop Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img3"></div>
+    		<div id="song-details">
+    			Arjit singh
+    			<br/>
+    	    <author>Hindi Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+        <!--End of Similar artist-->
+    	<div id="aside-header-2">
+    		Recently Played
+    		<x>View All</x>
+    	</div>
+        <!--Recently Played Songs-->
+        <!--Song 1-->
+    	<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="Images/music-artist-song-1.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Dil ka Dariya
+    			    	<br/>
+    			    	<author>Jubin Nautiyal</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--ENd of song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="Images/music-artist-song-4.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Baakhuda
+    			    	<br/>
+    			    	<author>Niti Mohan</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="Images/music-artist-song-3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Tum hi ho
+    			    	<br/>
+    			    	<author>Arjit Singh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="Images/music-artist-song-6.jfif" alt="album image">
+    			    <div id="song-details">
+    			    	saam
+    			    	<br/>
+    			    	<author>Shaan</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="Images/music-artist-song-5.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Abhi
+    			    	<br/>
+    			    	<author>Sonu nigam</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 5-->
+    		<!--End of recently played songs-->
+    </aside>
+    <!--End of aside-->
+
+    <!--Begining of footer section-->
+   <footer>
+   <!--The bottom music bar which pops up when we play a music-->
+	<div id="music-bar">
+		<!--Music Icon-->
+		<div id="music-icon">
+			 <img src="Images/recent-image-1.jpg" alt="music-icon">
+		</div>
+		<!--End of music icon-->
+		<!--Music title-->
+		<div id="music-title">
+			<b>Gehraiya</b>
+            <div id="favourite">
+			   <i class="far fa-heart"></i>
+			</div>
+			<div id="remove">
+				<i class="fas fa-ban"></i>
+			</div>
+			<br/>
+			<artist>Deepika padukon</artist>
+		</div>
+		<!--End of music title-->
+		<!--Play buttons-->
+		<div id="play-buttons">
+			<i class="fas fa-random"></i>
+			<i class="fas fa-backward"></i>
+			<i class="fas fa-pause-circle"></i>
+			<i class="fas fa-forward"></i>
+			<i class="fas fa-undo-alt"></i>
+		</div>
+		<!--End of play buttons-->
+		<!--Music start time-->
+	    <div id="start-time">
+            0:00
+	    </div>
+	    <!--End of music start time-->
+	    <!--Music end time-->
+	    <div id="end-time">
+            5:04
+	    </div>
+	    <!--End of music end time-->
+	    <!--Begining of the progress bar-->
+		<div id="progress-bar">
+		     <div id="circle">
+			     <i class="fas fa-circle"></i>
+		    </div>
+		</div>
+		<!--End of progress bar-->
+		<!--Miscellaneous icons-->
+		<div id="queue">
+			<i class="fas fa-bars"></i>
+		</div>
+		<div id="volume">
+			<i class="fas fa-volume-up"></i>
+		</div>
+		<div id="progress-bar-volume">
+			<div id="circle-volume">
+			  <i class="fas fa-circle"></i>
+		    </div>
+		</div>
+		<!--End of miscellaneous icons-->
+	</div>
+	<!--End of music bar-->
+   </footer>
+   <!--End of footer section-->
+</body>
+<!--End of body section-->
+</html>
+<!--End of html code-->
